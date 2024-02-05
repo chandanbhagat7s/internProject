@@ -47,25 +47,28 @@ export default function EditBusiness() {
                   id="disabledTextInput"
                   placeholder={responseData.businessname}
                   className="text-center"
+                  disabled
                 />
               </Form.Group>
               <Form.Group className="mb-3  ">
                 <Form.Label htmlFor="disabledTextInput">
-                  Business Name
+                  Mobile Number
                 </Form.Label>
                 <Form.Control
                   id="disabledTextInput"
                   placeholder={responseData.contactno}
+                  disabled
                   className="text-center"
                 />
               </Form.Group>
               <Form.Group className="mb-3  ">
                 <Form.Label htmlFor="disabledTextInput">
-                  Business Name
+                  Subscription Date
                 </Form.Label>
                 <Form.Control
                   id="disabledTextInput"
                   placeholder={responseData.subscriptiondate}
+                  disabled
                   className="text-center"
                 />
               </Form.Group>

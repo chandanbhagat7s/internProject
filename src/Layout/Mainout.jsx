@@ -1,10 +1,13 @@
 import React, { Children } from "react";
 import TopNav from "../Components/TopNav";
 import Nav from "../Components/Nav";
+import { useDispatch } from "react-redux";
+import Alerts from "../Components/Alerts";
 
 export default function Mainout({ children }) {
   return (
     <>
+      <Alerts />
       <TopNav>
         <Nav />
       </TopNav>

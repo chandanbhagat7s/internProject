@@ -26,8 +26,8 @@ function Nav() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const handleLogout = () => {
-    dispatch(logout);
+  const handleLogout = async () => {
+    await dispatch(logout);
     nevigate("/login");
     localStorage.clear();
   };
